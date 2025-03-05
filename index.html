@@ -51,7 +51,7 @@
             justify-content: space-between;
             align-items: center;
         }
-        .section1 {
+        .section {
             border-left: 4px solid #1F4A7C;
             padding: 15px;
             background: white;
@@ -65,6 +65,7 @@
             align-items: flex-start;
             padding: 10px 0;
             font-size: 16px;
+            border-top: 2px solid #1f497d;
         }
 
         .column {
@@ -83,13 +84,6 @@
             border: 2px solid #ccc;
         }
 
-        .section2 {
-            border-left: 4px solid #1F4A7C;
-            padding: 15px;
-            background: white;
-            font-family: Arial, sans-serif;
-        }
-
         .title {
             background: #1F4A7C;
             color: white;
@@ -100,51 +94,11 @@
             font-size: 22px;
             position: relative;
         }
-        .title::after {
-            content: "";
-            position: absolute;
-            right: -1070px;
-            top: 97%; 
-            transform: translateY(-50%); 
-            width: 1070px; 
-            height: 3px; 
-            background-color:#1F4A7C; 
-        }
 
-        .content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 0;
-            font-size: 16px;
+        .info {
+            flex: 1;
+            text-align: left;
             font-weight: bold;
-        }
-
-        .date {
-            color: black;
-            flex: 1;
-            font-size: 18px;
-        }
-
-        .school {
-            flex: 1;
-            text-align: center;
-            font-weight: bold;
-            
-            font-size: 18px;
-        }
-
-        .major {
-            flex: 1;
-            text-align: right;
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        .gpa {
-            flex: 1;
-            text-align: right;
-            color: black;
             font-size: 18px;
         }
 
@@ -161,14 +115,6 @@
             margin-bottom: 8px;
         }
 
-
-        .section h2 {
-            background: #1f497d;
-            color: white;
-            padding: 10px;
-            display: inline-block;
-            border-radius: 5px;
-        }
         .discription1 {
             margin-top: 10px;
             font-size: 18px;
@@ -193,7 +139,7 @@
 
         </div>
 
-        <div class="section1">
+        <div class="section">
             <div class="title">基本信息</div>
             <div class="content">
                 <div class="column">
@@ -216,13 +162,13 @@
             </div>
         </div>
 
-        <div class="section2">
+        <div class="section">
             <div class="title">教育背景</div>
             <div class="content">
-                <div class="date">2018.09 - 2022.06</div>
-                <div class="school">河北美术学院</div>
-                <div class="major">广播电视编导</div>
-                <div class="gpa">GPA：3.5/4.0</div>
+                <div class="info">2018.09 - 2022.06</div>
+                <div class="info">河北美术学院</div>
+                <div class="info">广播电视编导</div>
+                <div class="info">GPA：3.5/4.0</div>
             </div>
             <div class="description">
                 <ul>
@@ -231,12 +177,12 @@
                 </ul>
             </div>
         </div>
-        <div class="section2">
+        <div class="section">
             <div class="title">工作经历</div>
             <div class="content">
-                <div class="date">2021.11 - 2024.09</div>
-                <div class="school">宁夏广播电视台</div>
-                <div class="major">摄像    </div>
+                <div class="info">2021.11 - 2024.09</div>
+                <div class="info">宁夏广播电视台</div>
+                <div class="info">摄像    </div>
             </div>
             <div class="description">
                 <ul>
@@ -254,9 +200,9 @@
                 </ul>
             </div>
             <div class="content">
-                <div class="date">2021.07 - 2021.09</div>
-                <div class="school">银川市电视台</div>
-                <div class="major">   </div>
+                <div class="info">2021.07 - 2021.09</div>
+                <div class="info">银川市电视台</div>
+                <div class="info">   </div>
             </div>
             <div class="description">
                 <ul>
@@ -265,9 +211,9 @@
                 </ul>
             </div>
             <div class="content">
-                <div class="date">2020.12 - 2021.07</div>
-                <div class="school">青铜峡市电视台</div>
-                <div class="major">  </div>
+                <div class="info">2020.12 - 2021.07</div>
+                <div class="info">青铜峡市电视台</div>
+                <div class="info">  </div>
             </div>
             <div class="description">
                 <ul>
@@ -280,7 +226,7 @@
                 </ul>
             </div>
         </div>
-        <div class="section2">
+        <div class="section">
             <div class="title">证书/荣誉</div>
             <div class="description1">
                 <ul>
